@@ -27,6 +27,18 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+
+      <h2>
+        <a style={{
+          color: `grey`,
+          textDecoration: `underline`,
+        }}
+          href="https://blog.johninvirtual.com" rel="blog"
+        >
+          Blog
+        </a>
+
+      </h2>
     </div>
   </header>
 )
