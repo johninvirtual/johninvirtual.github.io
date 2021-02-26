@@ -9,9 +9,10 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-cname',
     {
-      resolve: "gatsby-plugin-google-tagmanager",
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        id: "G-QMKGZZC1JH",
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-80862184-6",
       }
     },
     {
@@ -26,13 +27,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `john-in-virtual`,
+        short_name: `johninvirtual`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/sculpt-head.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,

@@ -1,0 +1,17 @@
+* {
+    /* Set box-sizing
+    Margin and padding will be calculated within width and height
+    */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    scrollbar-width: 1px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
